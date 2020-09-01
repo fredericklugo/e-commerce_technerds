@@ -1,0 +1,12 @@
+2020-09-01T01:57:56+00:00 CRITICAL Uncaught Error: Class 'Kliken\WcPlugin\Plugin' not found in C:\wamp\www\Technerds\wp-content\plugins\kliken-marketing-for-google\kliken-marketing-for-google.php:54
+Stack trace:
+#0 C:\wamp\www\Technerds\wp-content\plugins\kliken-marketing-for-google\kliken-marketing-for-google.php(61): kk_wc_plugin()
+#1 C:\wamp\www\Technerds\wp-admin\includes\plugin.php(668): include_once('C:\\wamp\\www\\Tec...')
+#2 C:\wamp\www\Technerds\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Plugins.php(416): activate_plugin('kliken-marketin...')
+#3 C:\wamp\www\Technerds\wp-includes\rest-api\class-wp-rest-server.php(1050): Automattic\WooCommerce\Admin\API\Plugins->activate_plugins(Object(WP_REST_Request))
+#4 C:\wamp\www\Technerds\wp-includes\rest-api\class-wp-rest-server.php(376): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 C:\wamp\www\Technerds\wp-includes\rest-api.php(338): WP_REST_Server->serve_request('/wc-admin/plugi...')
+#6 C:\wamp\www\Technerds\wp-includes\class-wp-hook.php(287): rest_api_loaded(Obje in C:\wamp\www\Technerds\wp-content\plugins\kliken-marketing-for-google\kliken-marketing-for-google.php on line 54
+
+2020-09-01T02:02:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\wamp\www\Technerds\wp-admin\includes\class-wp-filesystem-direct.php on line 66
+
